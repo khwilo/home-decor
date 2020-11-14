@@ -1,0 +1,37 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.formGroup {
+  display: flex;
+}
+
+.formGroup + .formGroup {
+  margin-top: 0.5rem;
+}
+
+.formControl,
+.textarea {
+  font-size: 0.8rem;
+}
+
+.formControl {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid teal;
+}
+
+.textarea {
+  width: 100%;
+  border: 2px solid teal;
+}

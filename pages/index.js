@@ -1,7 +1,8 @@
 import Head from 'next/head';
-
+import Footer from '../container/Footer';
 import Header from '../container/Header';
 import Main from '../container/Main';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -16,9 +17,7 @@ export default function Home() {
 
       <Main />
 
-      <footer>
-        <h2>Footer Section</h2>
-      </footer>
+      <Footer />
     </div>
   );
 }
