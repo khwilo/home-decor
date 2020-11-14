@@ -47,7 +47,7 @@ const Footer = () => (
       <div className={styles.bottomNavContainer}>
         <Logo />
 
-        <div className={styles.bottomNavLink}>
+        <div className={styles.bottomNavLinks}>
           <BottomNav title='Home' links={homeLinks} />
           <BottomNav title='Connect with us' links={socialLinks} />
           <BottomNav title='Contact us' links={contactLinks} />

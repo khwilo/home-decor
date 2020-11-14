@@ -1,8 +1,3 @@
-.wrapper {
-  padding: 2rem 1rem;
-  min-height: 100vh;
-}
-
 .wrapper > * + * {
   margin-top: 2rem;
 }
@@ -11,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .form {

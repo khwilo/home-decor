@@ -1,5 +1,7 @@
 .footer {
   margin-top: 5rem;
+  padding: 2rem 0;
+  background-color: #aebfbe;
 }
 
 .footerContainer {
@@ -20,13 +22,13 @@
   }
 }
 
-.bottomNavLink {
+.bottomNavLinks {
   display: flex;
   margin-top: 1rem;
 }
 
 @media (min-width: 35em) {
-  .bottomNavLink {
+  .bottomNavLinks {
     margin-top: 0;
   }
 }
