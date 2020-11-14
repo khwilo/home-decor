@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--clr-card-bg);
+  border-radius: 10px;
+  padding: 1rem;
+  opacity: 0.8;
+}
+
+.cardImg {
+  background-color: var(--clr-btn);
+  border-radius: 50%;
+}
+
+.cardContent {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,31 @@
+.services {
+  margin-top: 5rem;
+}
+
+@media (min-width: 35em) {
+  .servicesContainer {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.servicesTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  font-size: 0.6rem;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.servicesContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servicesImg {
+  width: 50%;
+}
