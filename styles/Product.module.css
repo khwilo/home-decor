@@ -1,0 +1,23 @@
+.products {
+  margin-top: 5rem;
+}
+
+@supports (display: grid) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 35em) {
+  .productsContainer {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.productsTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
