@@ -1,0 +1,39 @@
+.banner > * + * {
+  margin-top: 1rem;
+}
+
+@media (min-width: 35em) {
+  .bannerContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .banner > * + * {
+    margin-top: 0;
+  }
+
+  .bannerImg {
+    width: 60%;
+    margin-left: 1rem;
+  }
+}
+
+.bannerTitle {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.bannerContent > * + * {
+  margin-top: 1.5rem;
+}
+
+.bannerBtn {
+  color: var(--clr-white);
+  background-color: var(--clr-btn);
+  border: 1px solid var(--clr-btn);
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+}
