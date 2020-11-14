@@ -3,6 +3,10 @@
   justify-content: space-between;
 }
 
+.contactDescription {
+  width: 40%;
+}
+
 .form {
   display: flex;
   flex-direction: column;
