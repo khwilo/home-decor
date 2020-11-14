@@ -1,0 +1,15 @@
+.logo {
+  color: teal;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logoTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: -5px;
+}
