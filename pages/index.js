@@ -1,16 +1,17 @@
 import Head from 'next/head';
 
+import Header from '../container/Header';
+import styles from '../styles/Home.module.css';
+
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>Home Decor</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <header>
-        <h1>Header section</h1>
-      </header>
+      <Header />
 
       <main>
         <h2>Main Section</h2>
