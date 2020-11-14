@@ -5,6 +5,8 @@
   --clr-black: #000000;
 
   --clr-btn: teal;
+  --clr-body-bg: #fcfeff;
+  --clr-card-bg: #e0f2f1;
 }
 
 *,
@@ -17,6 +19,7 @@ html,
 body,
 h1,
 h2,
+h3,
 p,
 ul {
   padding: 0;
@@ -32,7 +35,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.5;
   color: var(--clr-black);
-  background-color: var(--clr-white);
+  background-color: var(--clr-body-bg);
 }
 
 a {
