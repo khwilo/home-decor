@@ -2,6 +2,10 @@
   margin-top: 5rem;
 }
 
+.grid {
+  margin-bottom: 5rem;
+}
+
 @supports (display: grid) {
   .grid {
     display: grid;
@@ -19,5 +23,6 @@
 
 .productsTitle {
   text-align: center;
+  margin-top: 5rem;
   margin-bottom: 2rem;
 }
