@@ -1,0 +1,70 @@
+.wrapper {
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+.wrapper > * + * {
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+}
+
+@media (min-width: 35em) {
+  .form {
+    width: 40%;
+  }
+}
+
+.formGroup {
+  font-size: 0.8rem;
+}
+
+.formGroup + .formGroup {
+  margin-top: 0.5rem;
+}
+
+.formControl {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem 0.2rem;
+  border: 2px solid teal;
+}
+
+.formFooter {
+  display: flex;
+  align-items: baseline;
+}
+
+.submitBtn {
+  display: inline-flex;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  background-color: var(--clr-btn);
+  color: var(--clr-white);
+  border: 1px solid var(--clr-btn);
+}
+
+.registerLink {
+  display: block;
+  margin-left: 1rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+  transition: color 600ms ease-in-out;
+}
+
+.registerLink:hover {
+  color: hsl(0deg 100% 25%);
+}
