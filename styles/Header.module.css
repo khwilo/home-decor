@@ -11,20 +11,8 @@
   }
 }
 
-.logoContainer {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.logoTitle {
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: -5px;
-}
-
 .logIn {
   text-transform: capitalize;
-  border: 2px solid black;
+  border: 2px solid var(--clr-black);
   padding: 0.5rem 0.25rem;
 }
